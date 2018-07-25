@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F79EFF920C4BD9B00EFC27E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F79EFF820C4BD9B00EFC27E /* AppDelegate.m */; };
+		3F79EFFC20C4BD9B00EFC27E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F79EFFB20C4BD9B00EFC27E /* main.m */; };
+		3F79EFFF20C4BD9B00EFC27E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F79EFFE20C4BD9B00EFC27E /* ViewController.m */; };
+		3F79F00120C4BD9B00EFC27E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F79F00020C4BD9B00EFC27E /* Assets.xcassets */; };
+		3F79F00420C4BD9B00EFC27E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F79F00220C4BD9B00EFC27E /* Main.storyboard */; };
+		3F79F00F20C4BD9B00EFC27E /* NSViewController______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F79F00E20C4BD9B00EFC27E /* NSViewController______Tests.m */; };
+		3F79F01A20C4BD9B00EFC27E /* NSViewController______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F79F01920C4BD9B00EFC27E /* NSViewController______UITests.m */; };
+		3F79F02A20C4BE1400EFC27E /* XIBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F79F02820C4BE1400EFC27E /* XIBViewController.m */; };
+		3F79F02B20C4BE1400EFC27E /* XIBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F79F02920C4BE1400EFC27E /* XIBViewController.xib */; };
+		3F79F02E20C4BF7A00EFC27E /* SBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F79F02D20C4BF7A00EFC27E /* SBViewController.m */; };
+		3F79F03120C4C02C00EFC27E /* XIB2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F79F03020C4C02C00EFC27E /* XIB2ViewController.m */; };
+		3F79F03320C4C05C00EFC27E /* XIB2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F79F03220C4C05C00EFC27E /* XIB2ViewController.xib */; };
+		3F79F03620C4C72200EFC27E /* XIB3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F79F03520C4C72200EFC27E /* XIB3ViewController.m */; };
+		3F79F03820C4C73100EFC27E /* XIB3View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F79F03720C4C73100EFC27E /* XIB3View.xib */; };
+		3FF6353C20C7ABBF00821239 /* CodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6353B20C7ABBF00821239 /* CodeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F79F00B20C4BD9B00EFC27E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F79EFEC20C4BD9B00EFC27E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F79EFF320C4BD9B00EFC27E;
+			remoteInfo = "NSViewController三种创建方式";
+		};
+		3F79F01620C4BD9B00EFC27E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F79EFEC20C4BD9B00EFC27E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F79EFF320C4BD9B00EFC27E;
+			remoteInfo = "NSViewController三种创建方式";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F79EFF420C4BD9B00EFC27E /* NSViewController三种创建方式.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSViewController三种创建方式.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F79EFF720C4BD9B00EFC27E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F79EFF820C4BD9B00EFC27E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F79EFFB20C4BD9B00EFC27E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F79EFFD20C4BD9B00EFC27E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3F79EFFE20C4BD9B00EFC27E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3F79F00020C4BD9B00EFC27E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F79F00320C4BD9B00EFC27E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F79F00520C4BD9B00EFC27E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F79F00A20C4BD9B00EFC27E /* NSViewController三种创建方式Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSViewController三种创建方式Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F79F00E20C4BD9B00EFC27E /* NSViewController______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSViewController______Tests.m"; sourceTree = "<group>"; };
+		3F79F01020C4BD9B00EFC27E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F79F01520C4BD9B00EFC27E /* NSViewController三种创建方式UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSViewController三种创建方式UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F79F01920C4BD9B00EFC27E /* NSViewController______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSViewController______UITests.m"; sourceTree = "<group>"; };
+		3F79F01B20C4BD9B00EFC27E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F79F02720C4BE1400EFC27E /* XIBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XIBViewController.h; sourceTree = "<group>"; };
+		3F79F02820C4BE1400EFC27E /* XIBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XIBViewController.m; sourceTree = "<group>"; };
+		3F79F02920C4BE1400EFC27E /* XIBViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XIBViewController.xib; sourceTree = "<group>"; };
+		3F79F02C20C4BF7A00EFC27E /* SBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBViewController.h; sourceTree = "<group>"; };
+		3F79F02D20C4BF7A00EFC27E /* SBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBViewController.m; sourceTree = "<group>"; };
+		3F79F02F20C4C02C00EFC27E /* XIB2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XIB2ViewController.h; sourceTree = "<group>"; };
+		3F79F03020C4C02C00EFC27E /* XIB2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XIB2ViewController.m; sourceTree = "<group>"; };
+		3F79F03220C4C05C00EFC27E /* XIB2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XIB2ViewController.xib; sourceTree = "<group>"; };
+		3F79F03420C4C72200EFC27E /* XIB3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XIB3ViewController.h; sourceTree = "<group>"; };
+		3F79F03520C4C72200EFC27E /* XIB3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XIB3ViewController.m; sourceTree = "<group>"; };
+		3F79F03720C4C73100EFC27E /* XIB3View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XIB3View.xib; sourceTree = "<group>"; };
+		3FF6353A20C7ABBF00821239 /* CodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeViewController.h; sourceTree = "<group>"; };
+		3FF6353B20C7ABBF00821239 /* CodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F79EFF120C4BD9B00EFC27E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F79F00720C4BD9B00EFC27E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F79F01220C4BD9B00EFC27E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F79EFEB20C4BD9B00EFC27E = {
+			isa = PBXGroup;
+			children = (
+				3F79EFF620C4BD9B00EFC27E /* NSViewController三种创建方式 */,
+				3F79F00D20C4BD9B00EFC27E /* NSViewController三种创建方式Tests */,
+				3F79F01820C4BD9B00EFC27E /* NSViewController三种创建方式UITests */,
+				3F79EFF520C4BD9B00EFC27E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F79EFF520C4BD9B00EFC27E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F79EFF420C4BD9B00EFC27E /* NSViewController三种创建方式.app */,
+				3F79F00A20C4BD9B00EFC27E /* NSViewController三种创建方式Tests.xctest */,
+				3F79F01520C4BD9B00EFC27E /* NSViewController三种创建方式UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F79EFF620C4BD9B00EFC27E /* NSViewController三种创建方式 */ = {
+			isa = PBXGroup;
+			children = (
+				3F79EFF720C4BD9B00EFC27E /* AppDelegate.h */,
+				3F79EFF820C4BD9B00EFC27E /* AppDelegate.m */,
+				3F79EFFD20C4BD9B00EFC27E /* ViewController.h */,
+				3F79EFFE20C4BD9B00EFC27E /* ViewController.m */,
+				3F79F00020C4BD9B00EFC27E /* Assets.xcassets */,
+				3F79F00220C4BD9B00EFC27E /* Main.storyboard */,
+				3F79F00520C4BD9B00EFC27E /* Info.plist */,
+				3F79EFFA20C4BD9B00EFC27E /* Supporting Files */,
+				3F79F02720C4BE1400EFC27E /* XIBViewController.h */,
+				3F79F02820C4BE1400EFC27E /* XIBViewController.m */,
+				3F79F02920C4BE1400EFC27E /* XIBViewController.xib */,
+				3F79F02C20C4BF7A00EFC27E /* SBViewController.h */,
+				3F79F02D20C4BF7A00EFC27E /* SBViewController.m */,
+				3F79F02F20C4C02C00EFC27E /* XIB2ViewController.h */,
+				3F79F03020C4C02C00EFC27E /* XIB2ViewController.m */,
+				3F79F03220C4C05C00EFC27E /* XIB2ViewController.xib */,
+				3F79F03420C4C72200EFC27E /* XIB3ViewController.h */,
+				3F79F03520C4C72200EFC27E /* XIB3ViewController.m */,
+				3F79F03720C4C73100EFC27E /* XIB3View.xib */,
+				3FF6353A20C7ABBF00821239 /* CodeViewController.h */,
+				3FF6353B20C7ABBF00821239 /* CodeViewController.m */,
+			);
+			path = "NSViewController三种创建方式";
+			sourceTree = "<group>";
+		};
+		3F79EFFA20C4BD9B00EFC27E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F79EFFB20C4BD9B00EFC27E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F79F00D20C4BD9B00EFC27E /* NSViewController三种创建方式Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3F79F00E20C4BD9B00EFC27E /* NSViewController______Tests.m */,
+				3F79F01020C4BD9B00EFC27E /* Info.plist */,
+			);
+			path = "NSViewController三种创建方式Tests";
+			sourceTree = "<group>";
+		};
+		3F79F01820C4BD9B00EFC27E /* NSViewController三种创建方式UITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F79F01920C4BD9B00EFC27E /* NSViewController______UITests.m */,
+				3F79F01B20C4BD9B00EFC27E /* Info.plist */,
+			);
+			path = "NSViewController三种创建方式UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F79EFF320C4BD9B00EFC27E /* NSViewController三种创建方式 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F79F01E20C4BD9B00EFC27E /* Build configuration list for PBXNativeTarget "NSViewController三种创建方式" */;
+			buildPhases = (
+				3F79EFF020C4BD9B00EFC27E /* Sources */,
+				3F79EFF120C4BD9B00EFC27E /* Frameworks */,
+				3F79EFF220C4BD9B00EFC27E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSViewController三种创建方式";
+			productName = "NSViewController三种创建方式";
+			productReference = 3F79EFF420C4BD9B00EFC27E /* NSViewController三种创建方式.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F79F00920C4BD9B00EFC27E /* NSViewController三种创建方式Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F79F02120C4BD9B00EFC27E /* Build configuration list for PBXNativeTarget "NSViewController三种创建方式Tests" */;
+			buildPhases = (
+				3F79F00620C4BD9B00EFC27E /* Sources */,
+				3F79F00720C4BD9B00EFC27E /* Frameworks */,
+				3F79F00820C4BD9B00EFC27E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F79F00C20C4BD9B00EFC27E /* PBXTargetDependency */,
+			);
+			name = "NSViewController三种创建方式Tests";
+			productName = "NSViewController三种创建方式Tests";
+			productReference = 3F79F00A20C4BD9B00EFC27E /* NSViewController三种创建方式Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F79F01420C4BD9B00EFC27E /* NSViewController三种创建方式UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F79F02420C4BD9B00EFC27E /* Build configuration list for PBXNativeTarget "NSViewController三种创建方式UITests" */;
+			buildPhases = (
+				3F79F01120C4BD9B00EFC27E /* Sources */,
+				3F79F01220C4BD9B00EFC27E /* Frameworks */,
+				3F79F01320C4BD9B00EFC27E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F79F01720C4BD9B00EFC27E /* PBXTargetDependency */,
+			);
+			name = "NSViewController三种创建方式UITests";
+			productName = "NSViewController三种创建方式UITests";
+			productReference = 3F79F01520C4BD9B00EFC27E /* NSViewController三种创建方式UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F79EFEC20C4BD9B00EFC27E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = student;
+				TargetAttributes = {
+					3F79EFF320C4BD9B00EFC27E = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					3F79F00920C4BD9B00EFC27E = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F79EFF320C4BD9B00EFC27E;
+					};
+					3F79F01420C4BD9B00EFC27E = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F79EFF320C4BD9B00EFC27E;
+					};
+				};
+			};
+			buildConfigurationList = 3F79EFEF20C4BD9B00EFC27E /* Build configuration list for PBXProject "NSViewController三种创建方式" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F79EFEB20C4BD9B00EFC27E;
+			productRefGroup = 3F79EFF520C4BD9B00EFC27E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F79EFF320C4BD9B00EFC27E /* NSViewController三种创建方式 */,
+				3F79F00920C4BD9B00EFC27E /* NSViewController三种创建方式Tests */,
+				3F79F01420C4BD9B00EFC27E /* NSViewController三种创建方式UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F79EFF220C4BD9B00EFC27E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F79F00120C4BD9B00EFC27E /* Assets.xcassets in Resources */,
+				3F79F00420C4BD9B00EFC27E /* Main.storyboard in Resources */,
+				3F79F02B20C4BE1400EFC27E /* XIBViewController.xib in Resources */,
+				3F79F03320C4C05C00EFC27E /* XIB2ViewController.xib in Resources */,
+				3F79F03820C4C73100EFC27E /* XIB3View.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F79F00820C4BD9B00EFC27E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F79F01320C4BD9B00EFC27E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F79EFF020C4BD9B00EFC27E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F79F03620C4C72200EFC27E /* XIB3ViewController.m in Sources */,
+				3FF6353C20C7ABBF00821239 /* CodeViewController.m in Sources */,
+				3F79F02A20C4BE1400EFC27E /* XIBViewController.m in Sources */,
+				3F79EFFF20C4BD9B00EFC27E /* ViewController.m in Sources */,
+				3F79EFFC20C4BD9B00EFC27E /* main.m in Sources */,
+				3F79F03120C4C02C00EFC27E /* XIB2ViewController.m in Sources */,
+				3F79F02E20C4BF7A00EFC27E /* SBViewController.m in Sources */,
+				3F79EFF920C4BD9B00EFC27E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F79F00620C4BD9B00EFC27E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F79F00F20C4BD9B00EFC27E /* NSViewController______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F79F01120C4BD9B00EFC27E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F79F01A20C4BD9B00EFC27E /* NSViewController______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F79F00C20C4BD9B00EFC27E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F79EFF320C4BD9B00EFC27E /* NSViewController三种创建方式 */;
+			targetProxy = 3F79F00B20C4BD9B00EFC27E /* PBXContainerItemProxy */;
+		};
+		3F79F01720C4BD9B00EFC27E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F79EFF320C4BD9B00EFC27E /* NSViewController三种创建方式 */;
+			targetProxy = 3F79F01620C4BD9B00EFC27E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F79F00220C4BD9B00EFC27E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F79F00320C4BD9B00EFC27E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F79F01C20C4BD9B00EFC27E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3F79F01D20C4BD9B00EFC27E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3F79F01F20C4BD9B00EFC27E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "NSViewController三种创建方式/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.abc.NSViewController------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F79F02020C4BD9B00EFC27E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "NSViewController三种创建方式/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.abc.NSViewController------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3F79F02220C4BD9B00EFC27E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "NSViewController三种创建方式Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.abc.NSViewController------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSViewController三种创建方式.app/Contents/MacOS/NSViewController三种创建方式";
+			};
+			name = Debug;
+		};
+		3F79F02320C4BD9B00EFC27E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "NSViewController三种创建方式Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.abc.NSViewController------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSViewController三种创建方式.app/Contents/MacOS/NSViewController三种创建方式";
+			};
+			name = Release;
+		};
+		3F79F02520C4BD9B00EFC27E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "NSViewController三种创建方式UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.abc.NSViewController------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "NSViewController三种创建方式";
+			};
+			name = Debug;
+		};
+		3F79F02620C4BD9B00EFC27E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "NSViewController三种创建方式UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.abc.NSViewController------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "NSViewController三种创建方式";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F79EFEF20C4BD9B00EFC27E /* Build configuration list for PBXProject "NSViewController三种创建方式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F79F01C20C4BD9B00EFC27E /* Debug */,
+				3F79F01D20C4BD9B00EFC27E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F79F01E20C4BD9B00EFC27E /* Build configuration list for PBXNativeTarget "NSViewController三种创建方式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F79F01F20C4BD9B00EFC27E /* Debug */,
+				3F79F02020C4BD9B00EFC27E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F79F02120C4BD9B00EFC27E /* Build configuration list for PBXNativeTarget "NSViewController三种创建方式Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F79F02220C4BD9B00EFC27E /* Debug */,
+				3F79F02320C4BD9B00EFC27E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F79F02420C4BD9B00EFC27E /* Build configuration list for PBXNativeTarget "NSViewController三种创建方式UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F79F02520C4BD9B00EFC27E /* Debug */,
+				3F79F02620C4BD9B00EFC27E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F79EFEC20C4BD9B00EFC27E /* Project object */;
+}

@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F378EB720D9D228004A1213 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F378EB620D9D228004A1213 /* AppDelegate.m */; };
+		3F378EBA20D9D228004A1213 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F378EB920D9D228004A1213 /* main.m */; };
+		3F378EBD20D9D228004A1213 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F378EBC20D9D228004A1213 /* ViewController.m */; };
+		3F378EBF20D9D228004A1213 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F378EBE20D9D228004A1213 /* Assets.xcassets */; };
+		3F378EC220D9D228004A1213 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F378EC020D9D228004A1213 /* Main.storyboard */; };
+		3F378ECD20D9D228004A1213 /* ________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F378ECC20D9D228004A1213 /* ________Tests.m */; };
+		3F378ED820D9D228004A1213 /* ________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F378ED720D9D228004A1213 /* ________UITests.m */; };
+		3F378EED20D9DBCB004A1213 /* MyTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F378EEC20D9DBCB004A1213 /* MyTextField.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F378EC920D9D228004A1213 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F378EAA20D9D227004A1213 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F378EB120D9D228004A1213;
+			remoteInfo = "键盘事件-快捷键";
+		};
+		3F378ED420D9D228004A1213 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F378EAA20D9D227004A1213 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F378EB120D9D228004A1213;
+			remoteInfo = "键盘事件-快捷键";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F378EB220D9D228004A1213 /* 键盘事件-快捷键.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "键盘事件-快捷键.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F378EB520D9D228004A1213 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F378EB620D9D228004A1213 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F378EB920D9D228004A1213 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F378EBB20D9D228004A1213 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3F378EBC20D9D228004A1213 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3F378EBE20D9D228004A1213 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F378EC120D9D228004A1213 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F378EC320D9D228004A1213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F378EC820D9D228004A1213 /* 键盘事件-快捷键Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "键盘事件-快捷键Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F378ECC20D9D228004A1213 /* ________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________Tests.m"; sourceTree = "<group>"; };
+		3F378ECE20D9D228004A1213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F378ED320D9D228004A1213 /* 键盘事件-快捷键UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "键盘事件-快捷键UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F378ED720D9D228004A1213 /* ________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________UITests.m"; sourceTree = "<group>"; };
+		3F378ED920D9D228004A1213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F378EEB20D9DBCB004A1213 /* MyTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTextField.h; sourceTree = "<group>"; };
+		3F378EEC20D9DBCB004A1213 /* MyTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTextField.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F378EAF20D9D228004A1213 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F378EC520D9D228004A1213 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F378ED020D9D228004A1213 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F378EA920D9D227004A1213 = {
+			isa = PBXGroup;
+			children = (
+				3F378EB420D9D228004A1213 /* 键盘事件-快捷键 */,
+				3F378ECB20D9D228004A1213 /* 键盘事件-快捷键Tests */,
+				3F378ED620D9D228004A1213 /* 键盘事件-快捷键UITests */,
+				3F378EB320D9D228004A1213 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F378EB320D9D228004A1213 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F378EB220D9D228004A1213 /* 键盘事件-快捷键.app */,
+				3F378EC820D9D228004A1213 /* 键盘事件-快捷键Tests.xctest */,
+				3F378ED320D9D228004A1213 /* 键盘事件-快捷键UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F378EB420D9D228004A1213 /* 键盘事件-快捷键 */ = {
+			isa = PBXGroup;
+			children = (
+				3F378EB520D9D228004A1213 /* AppDelegate.h */,
+				3F378EB620D9D228004A1213 /* AppDelegate.m */,
+				3F378EBB20D9D228004A1213 /* ViewController.h */,
+				3F378EBC20D9D228004A1213 /* ViewController.m */,
+				3F378EBE20D9D228004A1213 /* Assets.xcassets */,
+				3F378EC020D9D228004A1213 /* Main.storyboard */,
+				3F378EC320D9D228004A1213 /* Info.plist */,
+				3F378EB820D9D228004A1213 /* Supporting Files */,
+				3F378EEB20D9DBCB004A1213 /* MyTextField.h */,
+				3F378EEC20D9DBCB004A1213 /* MyTextField.m */,
+			);
+			path = "键盘事件-快捷键";
+			sourceTree = "<group>";
+		};
+		3F378EB820D9D228004A1213 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F378EB920D9D228004A1213 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F378ECB20D9D228004A1213 /* 键盘事件-快捷键Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3F378ECC20D9D228004A1213 /* ________Tests.m */,
+				3F378ECE20D9D228004A1213 /* Info.plist */,
+			);
+			path = "键盘事件-快捷键Tests";
+			sourceTree = "<group>";
+		};
+		3F378ED620D9D228004A1213 /* 键盘事件-快捷键UITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F378ED720D9D228004A1213 /* ________UITests.m */,
+				3F378ED920D9D228004A1213 /* Info.plist */,
+			);
+			path = "键盘事件-快捷键UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F378EB120D9D228004A1213 /* 键盘事件-快捷键 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F378EDC20D9D228004A1213 /* Build configuration list for PBXNativeTarget "键盘事件-快捷键" */;
+			buildPhases = (
+				3F378EAE20D9D228004A1213 /* Sources */,
+				3F378EAF20D9D228004A1213 /* Frameworks */,
+				3F378EB020D9D228004A1213 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "键盘事件-快捷键";
+			productName = "键盘事件-快捷键";
+			productReference = 3F378EB220D9D228004A1213 /* 键盘事件-快捷键.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F378EC720D9D228004A1213 /* 键盘事件-快捷键Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F378EDF20D9D228004A1213 /* Build configuration list for PBXNativeTarget "键盘事件-快捷键Tests" */;
+			buildPhases = (
+				3F378EC420D9D228004A1213 /* Sources */,
+				3F378EC520D9D228004A1213 /* Frameworks */,
+				3F378EC620D9D228004A1213 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F378ECA20D9D228004A1213 /* PBXTargetDependency */,
+			);
+			name = "键盘事件-快捷键Tests";
+			productName = "键盘事件-快捷键Tests";
+			productReference = 3F378EC820D9D228004A1213 /* 键盘事件-快捷键Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F378ED220D9D228004A1213 /* 键盘事件-快捷键UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F378EE220D9D228004A1213 /* Build configuration list for PBXNativeTarget "键盘事件-快捷键UITests" */;
+			buildPhases = (
+				3F378ECF20D9D228004A1213 /* Sources */,
+				3F378ED020D9D228004A1213 /* Frameworks */,
+				3F378ED120D9D228004A1213 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F378ED520D9D228004A1213 /* PBXTargetDependency */,
+			);
+			name = "键盘事件-快捷键UITests";
+			productName = "键盘事件-快捷键UITests";
+			productReference = 3F378ED320D9D228004A1213 /* 键盘事件-快捷键UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F378EAA20D9D227004A1213 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = student;
+				TargetAttributes = {
+					3F378EB120D9D228004A1213 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					3F378EC720D9D228004A1213 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F378EB120D9D228004A1213;
+					};
+					3F378ED220D9D228004A1213 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F378EB120D9D228004A1213;
+					};
+				};
+			};
+			buildConfigurationList = 3F378EAD20D9D227004A1213 /* Build configuration list for PBXProject "键盘事件-快捷键" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F378EA920D9D227004A1213;
+			productRefGroup = 3F378EB320D9D228004A1213 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F378EB120D9D228004A1213 /* 键盘事件-快捷键 */,
+				3F378EC720D9D228004A1213 /* 键盘事件-快捷键Tests */,
+				3F378ED220D9D228004A1213 /* 键盘事件-快捷键UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F378EB020D9D228004A1213 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F378EBF20D9D228004A1213 /* Assets.xcassets in Resources */,
+				3F378EC220D9D228004A1213 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F378EC620D9D228004A1213 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F378ED120D9D228004A1213 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F378EAE20D9D228004A1213 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F378EBD20D9D228004A1213 /* ViewController.m in Sources */,
+				3F378EBA20D9D228004A1213 /* main.m in Sources */,
+				3F378EB720D9D228004A1213 /* AppDelegate.m in Sources */,
+				3F378EED20D9DBCB004A1213 /* MyTextField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F378EC420D9D228004A1213 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F378ECD20D9D228004A1213 /* ________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F378ECF20D9D228004A1213 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F378ED820D9D228004A1213 /* ________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F378ECA20D9D228004A1213 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F378EB120D9D228004A1213 /* 键盘事件-快捷键 */;
+			targetProxy = 3F378EC920D9D228004A1213 /* PBXContainerItemProxy */;
+		};
+		3F378ED520D9D228004A1213 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F378EB120D9D228004A1213 /* 键盘事件-快捷键 */;
+			targetProxy = 3F378ED420D9D228004A1213 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F378EC020D9D228004A1213 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F378EC120D9D228004A1213 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F378EDA20D9D228004A1213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3F378EDB20D9D228004A1213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3F378EDD20D9D228004A1213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "键盘事件-快捷键/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.abc.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F378EDE20D9D228004A1213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "键盘事件-快捷键/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.abc.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3F378EE020D9D228004A1213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "键盘事件-快捷键Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.abc.--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/键盘事件-快捷键.app/Contents/MacOS/键盘事件-快捷键";
+			};
+			name = Debug;
+		};
+		3F378EE120D9D228004A1213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "键盘事件-快捷键Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.abc.--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/键盘事件-快捷键.app/Contents/MacOS/键盘事件-快捷键";
+			};
+			name = Release;
+		};
+		3F378EE320D9D228004A1213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "键盘事件-快捷键UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.abc.--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "键盘事件-快捷键";
+			};
+			name = Debug;
+		};
+		3F378EE420D9D228004A1213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "键盘事件-快捷键UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.abc.--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "键盘事件-快捷键";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F378EAD20D9D227004A1213 /* Build configuration list for PBXProject "键盘事件-快捷键" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F378EDA20D9D228004A1213 /* Debug */,
+				3F378EDB20D9D228004A1213 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F378EDC20D9D228004A1213 /* Build configuration list for PBXNativeTarget "键盘事件-快捷键" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F378EDD20D9D228004A1213 /* Debug */,
+				3F378EDE20D9D228004A1213 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F378EDF20D9D228004A1213 /* Build configuration list for PBXNativeTarget "键盘事件-快捷键Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F378EE020D9D228004A1213 /* Debug */,
+				3F378EE120D9D228004A1213 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F378EE220D9D228004A1213 /* Build configuration list for PBXNativeTarget "键盘事件-快捷键UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F378EE320D9D228004A1213 /* Debug */,
+				3F378EE420D9D228004A1213 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F378EAA20D9D227004A1213 /* Project object */;
+}

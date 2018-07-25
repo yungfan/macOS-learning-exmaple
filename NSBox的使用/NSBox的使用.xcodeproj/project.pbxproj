@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FEE2CF920A90988000FAACB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEE2CF820A90988000FAACB /* AppDelegate.m */; };
+		3FEE2CFC20A90988000FAACB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEE2CFB20A90988000FAACB /* main.m */; };
+		3FEE2CFF20A90988000FAACB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEE2CFE20A90988000FAACB /* ViewController.m */; };
+		3FEE2D0120A90988000FAACB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FEE2D0020A90988000FAACB /* Assets.xcassets */; };
+		3FEE2D0420A90989000FAACB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FEE2D0220A90989000FAACB /* Main.storyboard */; };
+		3FEE2D0F20A90989000FAACB /* NSBox___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEE2D0E20A90989000FAACB /* NSBox___Tests.m */; };
+		3FEE2D1A20A90989000FAACB /* NSBox___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEE2D1920A90989000FAACB /* NSBox___UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FEE2D0B20A90989000FAACB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FEE2CEC20A90988000FAACB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FEE2CF320A90988000FAACB;
+			remoteInfo = "NSBox的使用";
+		};
+		3FEE2D1620A90989000FAACB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FEE2CEC20A90988000FAACB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FEE2CF320A90988000FAACB;
+			remoteInfo = "NSBox的使用";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FEE2CF420A90988000FAACB /* NSBox的使用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSBox的使用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FEE2CF720A90988000FAACB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3FEE2CF820A90988000FAACB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3FEE2CFB20A90988000FAACB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3FEE2CFD20A90988000FAACB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3FEE2CFE20A90988000FAACB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3FEE2D0020A90988000FAACB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FEE2D0320A90989000FAACB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FEE2D0520A90989000FAACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FEE2D0A20A90989000FAACB /* NSBox的使用Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSBox的使用Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FEE2D0E20A90989000FAACB /* NSBox___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSBox___Tests.m"; sourceTree = "<group>"; };
+		3FEE2D1020A90989000FAACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FEE2D1520A90989000FAACB /* NSBox的使用UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSBox的使用UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FEE2D1920A90989000FAACB /* NSBox___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSBox___UITests.m"; sourceTree = "<group>"; };
+		3FEE2D1B20A90989000FAACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FEE2CF120A90988000FAACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FEE2D0720A90989000FAACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FEE2D1220A90989000FAACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FEE2CEB20A90988000FAACB = {
+			isa = PBXGroup;
+			children = (
+				3FEE2CF620A90988000FAACB /* NSBox的使用 */,
+				3FEE2D0D20A90989000FAACB /* NSBox的使用Tests */,
+				3FEE2D1820A90989000FAACB /* NSBox的使用UITests */,
+				3FEE2CF520A90988000FAACB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FEE2CF520A90988000FAACB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FEE2CF420A90988000FAACB /* NSBox的使用.app */,
+				3FEE2D0A20A90989000FAACB /* NSBox的使用Tests.xctest */,
+				3FEE2D1520A90989000FAACB /* NSBox的使用UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FEE2CF620A90988000FAACB /* NSBox的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				3FEE2CF720A90988000FAACB /* AppDelegate.h */,
+				3FEE2CF820A90988000FAACB /* AppDelegate.m */,
+				3FEE2CFD20A90988000FAACB /* ViewController.h */,
+				3FEE2CFE20A90988000FAACB /* ViewController.m */,
+				3FEE2D0020A90988000FAACB /* Assets.xcassets */,
+				3FEE2D0220A90989000FAACB /* Main.storyboard */,
+				3FEE2D0520A90989000FAACB /* Info.plist */,
+				3FEE2CFA20A90988000FAACB /* Supporting Files */,
+			);
+			path = "NSBox的使用";
+			sourceTree = "<group>";
+		};
+		3FEE2CFA20A90988000FAACB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FEE2CFB20A90988000FAACB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3FEE2D0D20A90989000FAACB /* NSBox的使用Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3FEE2D0E20A90989000FAACB /* NSBox___Tests.m */,
+				3FEE2D1020A90989000FAACB /* Info.plist */,
+			);
+			path = "NSBox的使用Tests";
+			sourceTree = "<group>";
+		};
+		3FEE2D1820A90989000FAACB /* NSBox的使用UITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FEE2D1920A90989000FAACB /* NSBox___UITests.m */,
+				3FEE2D1B20A90989000FAACB /* Info.plist */,
+			);
+			path = "NSBox的使用UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FEE2CF320A90988000FAACB /* NSBox的使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FEE2D1E20A90989000FAACB /* Build configuration list for PBXNativeTarget "NSBox的使用" */;
+			buildPhases = (
+				3FEE2CF020A90988000FAACB /* Sources */,
+				3FEE2CF120A90988000FAACB /* Frameworks */,
+				3FEE2CF220A90988000FAACB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSBox的使用";
+			productName = "NSBox的使用";
+			productReference = 3FEE2CF420A90988000FAACB /* NSBox的使用.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FEE2D0920A90989000FAACB /* NSBox的使用Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FEE2D2120A90989000FAACB /* Build configuration list for PBXNativeTarget "NSBox的使用Tests" */;
+			buildPhases = (
+				3FEE2D0620A90989000FAACB /* Sources */,
+				3FEE2D0720A90989000FAACB /* Frameworks */,
+				3FEE2D0820A90989000FAACB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FEE2D0C20A90989000FAACB /* PBXTargetDependency */,
+			);
+			name = "NSBox的使用Tests";
+			productName = "NSBox的使用Tests";
+			productReference = 3FEE2D0A20A90989000FAACB /* NSBox的使用Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FEE2D1420A90989000FAACB /* NSBox的使用UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FEE2D2420A90989000FAACB /* Build configuration list for PBXNativeTarget "NSBox的使用UITests" */;
+			buildPhases = (
+				3FEE2D1120A90989000FAACB /* Sources */,
+				3FEE2D1220A90989000FAACB /* Frameworks */,
+				3FEE2D1320A90989000FAACB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FEE2D1720A90989000FAACB /* PBXTargetDependency */,
+			);
+			name = "NSBox的使用UITests";
+			productName = "NSBox的使用UITests";
+			productReference = 3FEE2D1520A90989000FAACB /* NSBox的使用UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FEE2CEC20A90988000FAACB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = student;
+				TargetAttributes = {
+					3FEE2CF320A90988000FAACB = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					3FEE2D0920A90989000FAACB = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3FEE2CF320A90988000FAACB;
+					};
+					3FEE2D1420A90989000FAACB = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3FEE2CF320A90988000FAACB;
+					};
+				};
+			};
+			buildConfigurationList = 3FEE2CEF20A90988000FAACB /* Build configuration list for PBXProject "NSBox的使用" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FEE2CEB20A90988000FAACB;
+			productRefGroup = 3FEE2CF520A90988000FAACB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FEE2CF320A90988000FAACB /* NSBox的使用 */,
+				3FEE2D0920A90989000FAACB /* NSBox的使用Tests */,
+				3FEE2D1420A90989000FAACB /* NSBox的使用UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FEE2CF220A90988000FAACB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FEE2D0120A90988000FAACB /* Assets.xcassets in Resources */,
+				3FEE2D0420A90989000FAACB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FEE2D0820A90989000FAACB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FEE2D1320A90989000FAACB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FEE2CF020A90988000FAACB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FEE2CFF20A90988000FAACB /* ViewController.m in Sources */,
+				3FEE2CFC20A90988000FAACB /* main.m in Sources */,
+				3FEE2CF920A90988000FAACB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FEE2D0620A90989000FAACB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FEE2D0F20A90989000FAACB /* NSBox___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FEE2D1120A90989000FAACB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FEE2D1A20A90989000FAACB /* NSBox___UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FEE2D0C20A90989000FAACB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FEE2CF320A90988000FAACB /* NSBox的使用 */;
+			targetProxy = 3FEE2D0B20A90989000FAACB /* PBXContainerItemProxy */;
+		};
+		3FEE2D1720A90989000FAACB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FEE2CF320A90988000FAACB /* NSBox的使用 */;
+			targetProxy = 3FEE2D1620A90989000FAACB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FEE2D0220A90989000FAACB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FEE2D0320A90989000FAACB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FEE2D1C20A90989000FAACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3FEE2D1D20A90989000FAACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3FEE2D1F20A90989000FAACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "NSBox的使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.abc.NSBox---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3FEE2D2020A90989000FAACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "NSBox的使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.abc.NSBox---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3FEE2D2220A90989000FAACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "NSBox的使用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.abc.NSBox---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSBox的使用.app/Contents/MacOS/NSBox的使用";
+			};
+			name = Debug;
+		};
+		3FEE2D2320A90989000FAACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "NSBox的使用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.abc.NSBox---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSBox的使用.app/Contents/MacOS/NSBox的使用";
+			};
+			name = Release;
+		};
+		3FEE2D2520A90989000FAACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "NSBox的使用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.abc.NSBox---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "NSBox的使用";
+			};
+			name = Debug;
+		};
+		3FEE2D2620A90989000FAACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "NSBox的使用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.abc.NSBox---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "NSBox的使用";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FEE2CEF20A90988000FAACB /* Build configuration list for PBXProject "NSBox的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FEE2D1C20A90989000FAACB /* Debug */,
+				3FEE2D1D20A90989000FAACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FEE2D1E20A90989000FAACB /* Build configuration list for PBXNativeTarget "NSBox的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FEE2D1F20A90989000FAACB /* Debug */,
+				3FEE2D2020A90989000FAACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3FEE2D2120A90989000FAACB /* Build configuration list for PBXNativeTarget "NSBox的使用Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FEE2D2220A90989000FAACB /* Debug */,
+				3FEE2D2320A90989000FAACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3FEE2D2420A90989000FAACB /* Build configuration list for PBXNativeTarget "NSBox的使用UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FEE2D2520A90989000FAACB /* Debug */,
+				3FEE2D2620A90989000FAACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FEE2CEC20A90988000FAACB /* Project object */;
+}

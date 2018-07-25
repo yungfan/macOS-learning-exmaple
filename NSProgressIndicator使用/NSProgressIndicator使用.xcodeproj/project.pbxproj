@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F8AA8E0209FD0A00045616D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8AA8DF209FD0A00045616D /* AppDelegate.m */; };
+		3F8AA8E3209FD0A00045616D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8AA8E2209FD0A00045616D /* main.m */; };
+		3F8AA8E6209FD0A00045616D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8AA8E5209FD0A00045616D /* ViewController.m */; };
+		3F8AA8E8209FD0A00045616D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F8AA8E7209FD0A00045616D /* Assets.xcassets */; };
+		3F8AA8EB209FD0A00045616D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F8AA8E9209FD0A00045616D /* Main.storyboard */; };
+		3F8AA8F6209FD0A00045616D /* NSProgressIndicator__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8AA8F5209FD0A00045616D /* NSProgressIndicator__Tests.m */; };
+		3F8AA901209FD0A00045616D /* NSProgressIndicator__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8AA900209FD0A00045616D /* NSProgressIndicator__UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F8AA8F2209FD0A00045616D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F8AA8D3209FD0A00045616D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F8AA8DA209FD0A00045616D;
+			remoteInfo = "NSProgressIndicator使用";
+		};
+		3F8AA8FD209FD0A00045616D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F8AA8D3209FD0A00045616D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F8AA8DA209FD0A00045616D;
+			remoteInfo = "NSProgressIndicator使用";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F8AA8DB209FD0A00045616D /* NSProgressIndicator使用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSProgressIndicator使用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F8AA8DE209FD0A00045616D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F8AA8DF209FD0A00045616D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F8AA8E2209FD0A00045616D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F8AA8E4209FD0A00045616D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3F8AA8E5209FD0A00045616D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3F8AA8E7209FD0A00045616D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F8AA8EA209FD0A00045616D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F8AA8EC209FD0A00045616D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F8AA8F1209FD0A00045616D /* NSProgressIndicator使用Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSProgressIndicator使用Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F8AA8F5209FD0A00045616D /* NSProgressIndicator__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSProgressIndicator__Tests.m; sourceTree = "<group>"; };
+		3F8AA8F7209FD0A00045616D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F8AA8FC209FD0A00045616D /* NSProgressIndicator使用UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSProgressIndicator使用UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F8AA900209FD0A00045616D /* NSProgressIndicator__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSProgressIndicator__UITests.m; sourceTree = "<group>"; };
+		3F8AA902209FD0A00045616D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F8AA8D8209FD0A00045616D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8AA8EE209FD0A00045616D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8AA8F9209FD0A00045616D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F8AA8D2209FD0A00045616D = {
+			isa = PBXGroup;
+			children = (
+				3F8AA8DD209FD0A00045616D /* NSProgressIndicator使用 */,
+				3F8AA8F4209FD0A00045616D /* NSProgressIndicator使用Tests */,
+				3F8AA8FF209FD0A00045616D /* NSProgressIndicator使用UITests */,
+				3F8AA8DC209FD0A00045616D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F8AA8DC209FD0A00045616D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F8AA8DB209FD0A00045616D /* NSProgressIndicator使用.app */,
+				3F8AA8F1209FD0A00045616D /* NSProgressIndicator使用Tests.xctest */,
+				3F8AA8FC209FD0A00045616D /* NSProgressIndicator使用UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F8AA8DD209FD0A00045616D /* NSProgressIndicator使用 */ = {
+			isa = PBXGroup;
+			children = (
+				3F8AA8DE209FD0A00045616D /* AppDelegate.h */,
+				3F8AA8DF209FD0A00045616D /* AppDelegate.m */,
+				3F8AA8E4209FD0A00045616D /* ViewController.h */,
+				3F8AA8E5209FD0A00045616D /* ViewController.m */,
+				3F8AA8E7209FD0A00045616D /* Assets.xcassets */,
+				3F8AA8E9209FD0A00045616D /* Main.storyboard */,
+				3F8AA8EC209FD0A00045616D /* Info.plist */,
+				3F8AA8E1209FD0A00045616D /* Supporting Files */,
+			);
+			path = "NSProgressIndicator使用";
+			sourceTree = "<group>";
+		};
+		3F8AA8E1209FD0A00045616D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F8AA8E2209FD0A00045616D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F8AA8F4209FD0A00045616D /* NSProgressIndicator使用Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3F8AA8F5209FD0A00045616D /* NSProgressIndicator__Tests.m */,
+				3F8AA8F7209FD0A00045616D /* Info.plist */,
+			);
+			path = "NSProgressIndicator使用Tests";
+			sourceTree = "<group>";
+		};
+		3F8AA8FF209FD0A00045616D /* NSProgressIndicator使用UITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F8AA900209FD0A00045616D /* NSProgressIndicator__UITests.m */,
+				3F8AA902209FD0A00045616D /* Info.plist */,
+			);
+			path = "NSProgressIndicator使用UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F8AA8DA209FD0A00045616D /* NSProgressIndicator使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F8AA905209FD0A00045616D /* Build configuration list for PBXNativeTarget "NSProgressIndicator使用" */;
+			buildPhases = (
+				3F8AA8D7209FD0A00045616D /* Sources */,
+				3F8AA8D8209FD0A00045616D /* Frameworks */,
+				3F8AA8D9209FD0A00045616D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSProgressIndicator使用";
+			productName = "NSProgressIndicator使用";
+			productReference = 3F8AA8DB209FD0A00045616D /* NSProgressIndicator使用.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F8AA8F0209FD0A00045616D /* NSProgressIndicator使用Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F8AA908209FD0A00045616D /* Build configuration list for PBXNativeTarget "NSProgressIndicator使用Tests" */;
+			buildPhases = (
+				3F8AA8ED209FD0A00045616D /* Sources */,
+				3F8AA8EE209FD0A00045616D /* Frameworks */,
+				3F8AA8EF209FD0A00045616D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F8AA8F3209FD0A00045616D /* PBXTargetDependency */,
+			);
+			name = "NSProgressIndicator使用Tests";
+			productName = "NSProgressIndicator使用Tests";
+			productReference = 3F8AA8F1209FD0A00045616D /* NSProgressIndicator使用Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F8AA8FB209FD0A00045616D /* NSProgressIndicator使用UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F8AA90B209FD0A00045616D /* Build configuration list for PBXNativeTarget "NSProgressIndicator使用UITests" */;
+			buildPhases = (
+				3F8AA8F8209FD0A00045616D /* Sources */,
+				3F8AA8F9209FD0A00045616D /* Frameworks */,
+				3F8AA8FA209FD0A00045616D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F8AA8FE209FD0A00045616D /* PBXTargetDependency */,
+			);
+			name = "NSProgressIndicator使用UITests";
+			productName = "NSProgressIndicator使用UITests";
+			productReference = 3F8AA8FC209FD0A00045616D /* NSProgressIndicator使用UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F8AA8D3209FD0A00045616D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = student;
+				TargetAttributes = {
+					3F8AA8DA209FD0A00045616D = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					3F8AA8F0209FD0A00045616D = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F8AA8DA209FD0A00045616D;
+					};
+					3F8AA8FB209FD0A00045616D = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F8AA8DA209FD0A00045616D;
+					};
+				};
+			};
+			buildConfigurationList = 3F8AA8D6209FD0A00045616D /* Build configuration list for PBXProject "NSProgressIndicator使用" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F8AA8D2209FD0A00045616D;
+			productRefGroup = 3F8AA8DC209FD0A00045616D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F8AA8DA209FD0A00045616D /* NSProgressIndicator使用 */,
+				3F8AA8F0209FD0A00045616D /* NSProgressIndicator使用Tests */,
+				3F8AA8FB209FD0A00045616D /* NSProgressIndicator使用UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F8AA8D9209FD0A00045616D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8AA8E8209FD0A00045616D /* Assets.xcassets in Resources */,
+				3F8AA8EB209FD0A00045616D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8AA8EF209FD0A00045616D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8AA8FA209FD0A00045616D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F8AA8D7209FD0A00045616D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8AA8E6209FD0A00045616D /* ViewController.m in Sources */,
+				3F8AA8E3209FD0A00045616D /* main.m in Sources */,
+				3F8AA8E0209FD0A00045616D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8AA8ED209FD0A00045616D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8AA8F6209FD0A00045616D /* NSProgressIndicator__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8AA8F8209FD0A00045616D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8AA901209FD0A00045616D /* NSProgressIndicator__UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F8AA8F3209FD0A00045616D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F8AA8DA209FD0A00045616D /* NSProgressIndicator使用 */;
+			targetProxy = 3F8AA8F2209FD0A00045616D /* PBXContainerItemProxy */;
+		};
+		3F8AA8FE209FD0A00045616D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F8AA8DA209FD0A00045616D /* NSProgressIndicator使用 */;
+			targetProxy = 3F8AA8FD209FD0A00045616D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F8AA8E9209FD0A00045616D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F8AA8EA209FD0A00045616D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F8AA903209FD0A00045616D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3F8AA904209FD0A00045616D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3F8AA906209FD0A00045616D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "NSProgressIndicator使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.abc.NSProgressIndicator--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F8AA907209FD0A00045616D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "NSProgressIndicator使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.abc.NSProgressIndicator--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3F8AA909209FD0A00045616D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "NSProgressIndicator使用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.abc.NSProgressIndicator--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSProgressIndicator使用.app/Contents/MacOS/NSProgressIndicator使用";
+			};
+			name = Debug;
+		};
+		3F8AA90A209FD0A00045616D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "NSProgressIndicator使用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.abc.NSProgressIndicator--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSProgressIndicator使用.app/Contents/MacOS/NSProgressIndicator使用";
+			};
+			name = Release;
+		};
+		3F8AA90C209FD0A00045616D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "NSProgressIndicator使用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.abc.NSProgressIndicator--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "NSProgressIndicator使用";
+			};
+			name = Debug;
+		};
+		3F8AA90D209FD0A00045616D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "NSProgressIndicator使用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.abc.NSProgressIndicator--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "NSProgressIndicator使用";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F8AA8D6209FD0A00045616D /* Build configuration list for PBXProject "NSProgressIndicator使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F8AA903209FD0A00045616D /* Debug */,
+				3F8AA904209FD0A00045616D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F8AA905209FD0A00045616D /* Build configuration list for PBXNativeTarget "NSProgressIndicator使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F8AA906209FD0A00045616D /* Debug */,
+				3F8AA907209FD0A00045616D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F8AA908209FD0A00045616D /* Build configuration list for PBXNativeTarget "NSProgressIndicator使用Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F8AA909209FD0A00045616D /* Debug */,
+				3F8AA90A209FD0A00045616D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F8AA90B209FD0A00045616D /* Build configuration list for PBXNativeTarget "NSProgressIndicator使用UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F8AA90C209FD0A00045616D /* Debug */,
+				3F8AA90D209FD0A00045616D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F8AA8D3209FD0A00045616D /* Project object */;
+}

@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F937BCB20C0E28500BD2AE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F937BCA20C0E28500BD2AE2 /* AppDelegate.m */; };
+		3F937BCE20C0E28500BD2AE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F937BCD20C0E28500BD2AE2 /* main.m */; };
+		3F937BD320C0E28500BD2AE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F937BD220C0E28500BD2AE2 /* Assets.xcassets */; };
+		3F937BD620C0E28500BD2AE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F937BD420C0E28500BD2AE2 /* Main.storyboard */; };
+		3F937BE120C0E28500BD2AE2 /* NSWindowController___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F937BE020C0E28500BD2AE2 /* NSWindowController___Tests.m */; };
+		3F937BEC20C0E28500BD2AE2 /* NSWindowController___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F937BEB20C0E28500BD2AE2 /* NSWindowController___UITests.m */; };
+		3F937BFB20C0E2F100BD2AE2 /* MyWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F937BFA20C0E2F100BD2AE2 /* MyWindowController.m */; };
+		3F937BFE20C0E34600BD2AE2 /* MyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F937BFD20C0E34600BD2AE2 /* MyWindow.m */; };
+		3F937C0120C0E77F00BD2AE2 /* ContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F937C0020C0E77F00BD2AE2 /* ContentView.m */; };
+		3F937C0320C0E7DD00BD2AE2 /* ContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F937C0220C0E7DD00BD2AE2 /* ContentView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F937BDD20C0E28500BD2AE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F937BBE20C0E28500BD2AE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F937BC520C0E28500BD2AE2;
+			remoteInfo = "NSWindowController的使用";
+		};
+		3F937BE820C0E28500BD2AE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F937BBE20C0E28500BD2AE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F937BC520C0E28500BD2AE2;
+			remoteInfo = "NSWindowController的使用";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F937BC620C0E28500BD2AE2 /* NSWindowController的使用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSWindowController的使用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F937BC920C0E28500BD2AE2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F937BCA20C0E28500BD2AE2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F937BCD20C0E28500BD2AE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F937BD220C0E28500BD2AE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F937BD520C0E28500BD2AE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F937BD720C0E28500BD2AE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F937BDC20C0E28500BD2AE2 /* NSWindowController的使用Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSWindowController的使用Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F937BE020C0E28500BD2AE2 /* NSWindowController___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSWindowController___Tests.m"; sourceTree = "<group>"; };
+		3F937BE220C0E28500BD2AE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F937BE720C0E28500BD2AE2 /* NSWindowController的使用UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSWindowController的使用UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F937BEB20C0E28500BD2AE2 /* NSWindowController___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSWindowController___UITests.m"; sourceTree = "<group>"; };
+		3F937BED20C0E28500BD2AE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F937BF920C0E2F100BD2AE2 /* MyWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWindowController.h; sourceTree = "<group>"; };
+		3F937BFA20C0E2F100BD2AE2 /* MyWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWindowController.m; sourceTree = "<group>"; };
+		3F937BFC20C0E34600BD2AE2 /* MyWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWindow.h; sourceTree = "<group>"; };
+		3F937BFD20C0E34600BD2AE2 /* MyWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWindow.m; sourceTree = "<group>"; };
+		3F937BFF20C0E77F00BD2AE2 /* ContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentView.h; sourceTree = "<group>"; };
+		3F937C0020C0E77F00BD2AE2 /* ContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentView.m; sourceTree = "<group>"; };
+		3F937C0220C0E7DD00BD2AE2 /* ContentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContentView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F937BC320C0E28500BD2AE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F937BD920C0E28500BD2AE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F937BE420C0E28500BD2AE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F937BBD20C0E28500BD2AE2 = {
+			isa = PBXGroup;
+			children = (
+				3F937BC820C0E28500BD2AE2 /* NSWindowController的使用 */,
+				3F937BDF20C0E28500BD2AE2 /* NSWindowController的使用Tests */,
+				3F937BEA20C0E28500BD2AE2 /* NSWindowController的使用UITests */,
+				3F937BC720C0E28500BD2AE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F937BC720C0E28500BD2AE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F937BC620C0E28500BD2AE2 /* NSWindowController的使用.app */,
+				3F937BDC20C0E28500BD2AE2 /* NSWindowController的使用Tests.xctest */,
+				3F937BE720C0E28500BD2AE2 /* NSWindowController的使用UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F937BC820C0E28500BD2AE2 /* NSWindowController的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				3F937BC920C0E28500BD2AE2 /* AppDelegate.h */,
+				3F937BCA20C0E28500BD2AE2 /* AppDelegate.m */,
+				3F937BD220C0E28500BD2AE2 /* Assets.xcassets */,
+				3F937BD420C0E28500BD2AE2 /* Main.storyboard */,
+				3F937BD720C0E28500BD2AE2 /* Info.plist */,
+				3F937BCC20C0E28500BD2AE2 /* Supporting Files */,
+				3F937BF920C0E2F100BD2AE2 /* MyWindowController.h */,
+				3F937BFA20C0E2F100BD2AE2 /* MyWindowController.m */,
+				3F937BFC20C0E34600BD2AE2 /* MyWindow.h */,
+				3F937BFD20C0E34600BD2AE2 /* MyWindow.m */,
+				3F937BFF20C0E77F00BD2AE2 /* ContentView.h */,
+				3F937C0020C0E77F00BD2AE2 /* ContentView.m */,
+				3F937C0220C0E7DD00BD2AE2 /* ContentView.xib */,
+			);
+			path = "NSWindowController的使用";
+			sourceTree = "<group>";
+		};
+		3F937BCC20C0E28500BD2AE2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F937BCD20C0E28500BD2AE2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F937BDF20C0E28500BD2AE2 /* NSWindowController的使用Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3F937BE020C0E28500BD2AE2 /* NSWindowController___Tests.m */,
+				3F937BE220C0E28500BD2AE2 /* Info.plist */,
+			);
+			path = "NSWindowController的使用Tests";
+			sourceTree = "<group>";
+		};
+		3F937BEA20C0E28500BD2AE2 /* NSWindowController的使用UITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F937BEB20C0E28500BD2AE2 /* NSWindowController___UITests.m */,
+				3F937BED20C0E28500BD2AE2 /* Info.plist */,
+			);
+			path = "NSWindowController的使用UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F937BC520C0E28500BD2AE2 /* NSWindowController的使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F937BF020C0E28500BD2AE2 /* Build configuration list for PBXNativeTarget "NSWindowController的使用" */;
+			buildPhases = (
+				3F937BC220C0E28500BD2AE2 /* Sources */,
+				3F937BC320C0E28500BD2AE2 /* Frameworks */,
+				3F937BC420C0E28500BD2AE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSWindowController的使用";
+			productName = "NSWindowController的使用";
+			productReference = 3F937BC620C0E28500BD2AE2 /* NSWindowController的使用.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F937BDB20C0E28500BD2AE2 /* NSWindowController的使用Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F937BF320C0E28500BD2AE2 /* Build configuration list for PBXNativeTarget "NSWindowController的使用Tests" */;
+			buildPhases = (
+				3F937BD820C0E28500BD2AE2 /* Sources */,
+				3F937BD920C0E28500BD2AE2 /* Frameworks */,
+				3F937BDA20C0E28500BD2AE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F937BDE20C0E28500BD2AE2 /* PBXTargetDependency */,
+			);
+			name = "NSWindowController的使用Tests";
+			productName = "NSWindowController的使用Tests";
+			productReference = 3F937BDC20C0E28500BD2AE2 /* NSWindowController的使用Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F937BE620C0E28500BD2AE2 /* NSWindowController的使用UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F937BF620C0E28500BD2AE2 /* Build configuration list for PBXNativeTarget "NSWindowController的使用UITests" */;
+			buildPhases = (
+				3F937BE320C0E28500BD2AE2 /* Sources */,
+				3F937BE420C0E28500BD2AE2 /* Frameworks */,
+				3F937BE520C0E28500BD2AE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F937BE920C0E28500BD2AE2 /* PBXTargetDependency */,
+			);
+			name = "NSWindowController的使用UITests";
+			productName = "NSWindowController的使用UITests";
+			productReference = 3F937BE720C0E28500BD2AE2 /* NSWindowController的使用UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F937BBE20C0E28500BD2AE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = student;
+				TargetAttributes = {
+					3F937BC520C0E28500BD2AE2 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					3F937BDB20C0E28500BD2AE2 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F937BC520C0E28500BD2AE2;
+					};
+					3F937BE620C0E28500BD2AE2 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F937BC520C0E28500BD2AE2;
+					};
+				};
+			};
+			buildConfigurationList = 3F937BC120C0E28500BD2AE2 /* Build configuration list for PBXProject "NSWindowController的使用" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F937BBD20C0E28500BD2AE2;
+			productRefGroup = 3F937BC720C0E28500BD2AE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F937BC520C0E28500BD2AE2 /* NSWindowController的使用 */,
+				3F937BDB20C0E28500BD2AE2 /* NSWindowController的使用Tests */,
+				3F937BE620C0E28500BD2AE2 /* NSWindowController的使用UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F937BC420C0E28500BD2AE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F937BD320C0E28500BD2AE2 /* Assets.xcassets in Resources */,
+				3F937C0320C0E7DD00BD2AE2 /* ContentView.xib in Resources */,
+				3F937BD620C0E28500BD2AE2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F937BDA20C0E28500BD2AE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F937BE520C0E28500BD2AE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F937BC220C0E28500BD2AE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F937BCE20C0E28500BD2AE2 /* main.m in Sources */,
+				3F937BCB20C0E28500BD2AE2 /* AppDelegate.m in Sources */,
+				3F937C0120C0E77F00BD2AE2 /* ContentView.m in Sources */,
+				3F937BFB20C0E2F100BD2AE2 /* MyWindowController.m in Sources */,
+				3F937BFE20C0E34600BD2AE2 /* MyWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F937BD820C0E28500BD2AE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F937BE120C0E28500BD2AE2 /* NSWindowController___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F937BE320C0E28500BD2AE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F937BEC20C0E28500BD2AE2 /* NSWindowController___UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F937BDE20C0E28500BD2AE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F937BC520C0E28500BD2AE2 /* NSWindowController的使用 */;
+			targetProxy = 3F937BDD20C0E28500BD2AE2 /* PBXContainerItemProxy */;
+		};
+		3F937BE920C0E28500BD2AE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F937BC520C0E28500BD2AE2 /* NSWindowController的使用 */;
+			targetProxy = 3F937BE820C0E28500BD2AE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F937BD420C0E28500BD2AE2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F937BD520C0E28500BD2AE2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F937BEE20C0E28500BD2AE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3F937BEF20C0E28500BD2AE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3F937BF120C0E28500BD2AE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "NSWindowController的使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.abc.NSWindowController---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F937BF220C0E28500BD2AE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "NSWindowController的使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.abc.NSWindowController---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3F937BF420C0E28500BD2AE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "NSWindowController的使用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.abc.NSWindowController---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSWindowController的使用.app/Contents/MacOS/NSWindowController的使用";
+			};
+			name = Debug;
+		};
+		3F937BF520C0E28500BD2AE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "NSWindowController的使用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.abc.NSWindowController---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSWindowController的使用.app/Contents/MacOS/NSWindowController的使用";
+			};
+			name = Release;
+		};
+		3F937BF720C0E28500BD2AE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "NSWindowController的使用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.abc.NSWindowController---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "NSWindowController的使用";
+			};
+			name = Debug;
+		};
+		3F937BF820C0E28500BD2AE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "NSWindowController的使用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.abc.NSWindowController---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "NSWindowController的使用";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F937BC120C0E28500BD2AE2 /* Build configuration list for PBXProject "NSWindowController的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F937BEE20C0E28500BD2AE2 /* Debug */,
+				3F937BEF20C0E28500BD2AE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F937BF020C0E28500BD2AE2 /* Build configuration list for PBXNativeTarget "NSWindowController的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F937BF120C0E28500BD2AE2 /* Debug */,
+				3F937BF220C0E28500BD2AE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F937BF320C0E28500BD2AE2 /* Build configuration list for PBXNativeTarget "NSWindowController的使用Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F937BF420C0E28500BD2AE2 /* Debug */,
+				3F937BF520C0E28500BD2AE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F937BF620C0E28500BD2AE2 /* Build configuration list for PBXNativeTarget "NSWindowController的使用UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F937BF720C0E28500BD2AE2 /* Debug */,
+				3F937BF820C0E28500BD2AE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F937BBE20C0E28500BD2AE2 /* Project object */;
+}
